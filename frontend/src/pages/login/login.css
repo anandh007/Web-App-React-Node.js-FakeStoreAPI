@@ -1,0 +1,70 @@
+
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.login-page p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.login-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .login-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .login-page p {
+    font-size: 0.95rem;
+  }
+
+  .login-btn {
+    width: 80%;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
